@@ -43,6 +43,7 @@ function checkNumber(){
         // Assign new number for next game
         if(nextGame){
         number = Math.floor(Math.random()* 100 +1);
+        console.log("New Number: " + number)
 
         // Thanks for partcipating
         }else{
